@@ -1,10 +1,10 @@
-import EstiloGlobal, { Container } from './styles'
 import { Provider } from 'react-redux'
-
-import store from './store'
 
 import BarraLAteral from './containers/BarraLaterla'
 import ListaTarefas from './containers/ListaTarefas'
+import EstiloGlobal, { Container } from './styles'
+
+import store from './store'
 
 function App() {
   return (
